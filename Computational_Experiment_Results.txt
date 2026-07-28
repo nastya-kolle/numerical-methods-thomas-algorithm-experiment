@@ -1,0 +1,216 @@
+Table 1 - Tridiagonal Matrices (Part 1)
+
+| Condition Type | System Dimension | Matrix Elements Range | Average Relative Error |
+| Well-conditioned SLAE | 4 | 1e-01 | 4.35256e-16 |
+| Well-conditioned SLAE | 4 | 1e+01 | 3.03104e-15 |
+| Well-conditioned SLAE | 4 | 1e+02 | 7.59274e-17 |
+| Well-conditioned SLAE | 4 | 1e+03 | 9.66403e-17 |
+| Well-conditioned SLAE | 8 | 1e-01 | 2.64456e-16 |
+| Well-conditioned SLAE | 8 | 1e+01 | 2.12822e-16 |
+| Well-conditioned SLAE | 8 | 1e+02 | 2.50711e-16 |
+| Well-conditioned SLAE | 8 | 1e+03 | 6.60920e-16 |
+| Well-conditioned SLAE | 16 | 1e-01 | 1.16466e-16 |
+| Well-conditioned SLAE | 16 | 1e+01 | 4.28684e-16 |
+| Well-conditioned SLAE | 16 | 1e+02 | 6.63728e-16 |
+| Well-conditioned SLAE | 16 | 1e+03 | 1.75128e-16 |
+| Well-conditioned SLAE | 32 | 1e-01 | 2.35377e-16 |
+| Well-conditioned SLAE | 32 | 1e+01 | 2.49626e-16 |
+| Well-conditioned SLAE | 32 | 1e+02 | 1.99662e-16 |
+| Well-conditioned SLAE | 32 | 1e+03 | 2.45153e-16 |
+| Well-conditioned SLAE | 64 | 1e-01 | 1.82958e-16 |
+| Well-conditioned SLAE | 64 | 1e+01 | 3.88913e-16 |
+| Well-conditioned SLAE | 64 | 1e+02 | 1.87322e-16 |
+| Well-conditioned SLAE | 64 | 1e+03 | 2.12888e-16 |
+| Well-conditioned SLAE | 128 | 1e-01 | 2.78711e-16 |
+| Well-conditioned SLAE | 128 | 1e+01 | 6.05020e-16 |
+| Well-conditioned SLAE | 128 | 1e+02 | 2.95628e-16 |
+| Well-conditioned SLAE | 128 | 1e+03 | 2.25621e-16 |
+| Well-conditioned SLAE | 256 | 1e-01 | 2.59341e-16 |
+| Well-conditioned SLAE | 256 | 1e+01 | 3.24834e-16 |
+| Well-conditioned SLAE | 256 | 1e+02 | 2.66889e-16 |
+| Well-conditioned SLAE | 256 | 1e+03 | 3.28456e-16 |
+| Well-conditioned SLAE | 512 | 1e-01 | 2.79480e-16 |
+| Well-conditioned SLAE | 512 | 1e+01 | 5.96669e-16 |
+| Well-conditioned SLAE | 512 | 1e+02 | 2.92175e-16 |
+| Well-conditioned SLAE | 512 | 1e+03 | 3.04879e-16 |
+| Well-conditioned SLAE | 1024 | 1e-01 | 4.21137e-16 |
+| Well-conditioned SLAE | 1024 | 1e+01 | 3.14036e-16 |
+| Well-conditioned SLAE | 1024 | 1e+02 | 3.25479e-16 |
+| Well-conditioned SLAE | 1024 | 1e+03 | 4.17868e-16 |
+| Well-conditioned SLAE | 2048 | 1e-01 | 3.10184e-16 |
+| Well-conditioned SLAE | 2048 | 1e+01 | 3.04517e-16 |
+| Well-conditioned SLAE | 2048 | 1e+02 | 3.12364e-16 |
+| Well-conditioned SLAE | 2048 | 1e+03 | 8.14607e-16 |
+| Well-conditioned SLAE | 4096 | 1e-01 | 4.00018e-16 |
+| Well-conditioned SLAE | 4096 | 1e+01 | 3.07633e-16 |
+| Well-conditioned SLAE | 4096 | 1e+02 | 5.70564e-16 |
+| Well-conditioned SLAE | 4096 | 1e+03 | 6.42945e-16 |
+| Ill-conditioned SLAE | 4 | 1e-01 | 4.92522e-15 |
+| Ill-conditioned SLAE | 4 | 1e+01 | 6.25790e-16 |
+| Ill-conditioned SLAE | 4 | 1e+02 | 6.57595e-15 |
+| Ill-conditioned SLAE | 4 | 1e+03 | 1.39157e-15 |
+| Ill-conditioned SLAE | 8 | 1e-01 | 2.75769e-14 |
+| Ill-conditioned SLAE | 8 | 1e+01 | 1.98377e-14 |
+| Ill-conditioned SLAE | 8 | 1e+02 | 1.14400e-14 |
+| Ill-conditioned SLAE | 8 | 1e+03 | 3.75696e-14 |
+| Ill-conditioned SLAE | 16 | 1e-01 | 4.39951e-15 |
+| Ill-conditioned SLAE | 16 | 1e+01 | 1.99144e-14 |
+| Ill-conditioned SLAE | 16 | 1e+02 | 6.32499e-14 |
+| Ill-conditioned SLAE | 16 | 1e+03 | 4.32168e-15 |
+| Ill-conditioned SLAE | 32 | 1e-01 | 9.85358e-14 |
+| Ill-conditioned SLAE | 32 | 1e+01 | 1.19352e-13 |
+| Ill-conditioned SLAE | 32 | 1e+02 | 3.92993e-14 |
+| Ill-conditioned SLAE | 32 | 1e+03 | 1.58894e-14 |
+| Ill-conditioned SLAE | 64 | 1e-01 | 9.79193e-14 |
+| Ill-conditioned SLAE | 64 | 1e+01 | 6.58952e-13 |
+| Ill-conditioned SLAE | 64 | 1e+02 | 4.41215e-12 |
+| Ill-conditioned SLAE | 64 | 1e+03 | 4.37383e-12 |
+| Ill-conditioned SLAE | 128 | 1e-01 | 1.77448e-12 |
+| Ill-conditioned SLAE | 128 | 1e+01 | 3.90026e-13 |
+| Ill-conditioned SLAE | 128 | 1e+02 | 1.22508e-13 |
+| Ill-conditioned SLAE | 128 | 1e+03 | 2.25491e-11 |
+| Ill-conditioned SLAE | 256 | 1e-01 | 3.90258e-12 |
+| Ill-conditioned SLAE | 256 | 1e+01 | 2.74770e-13 |
+| Ill-conditioned SLAE | 256 | 1e+02 | 2.73991e-13 |
+| Ill-conditioned SLAE | 256 | 1e+03 | 8.98867e-13 |
+| Ill-conditioned SLAE | 512 | 1e-01 | 1.31676e-09 |
+| Ill-conditioned SLAE | 512 | 1e+01 | 8.74048e-12 |
+| Ill-conditioned SLAE | 512 | 1e+02 | 1.18594e-12 |
+| Ill-conditioned SLAE | 512 | 1e+03 | 9.77737e-11 |
+| Ill-conditioned SLAE | 1024 | 1e-01 | 1.26008e-11 |
+| Ill-conditioned SLAE | 1024 | 1e+01 | 1.89540e-12 |
+| Ill-conditioned SLAE | 1024 | 1e+02 | 2.11752e-10 |
+| Ill-conditioned SLAE | 1024 | 1e+03 | 4.04037e-12 |
+| Ill-conditioned SLAE | 2048 | 1e-01 | 6.04583e-09 |
+| Ill-conditioned SLAE | 2048 | 1e+01 | 1.18757e-11 |
+| Ill-conditioned SLAE | 2048 | 1e+02 | 1.49472e-11 |
+| Ill-conditioned SLAE | 2048 | 1e+03 | 7.28584e-11 |
+| Ill-conditioned SLAE | 4096 | 1e-01 | 6.15306e-11 |
+| Ill-conditioned SLAE | 4096 | 1e+01 | 2.62373e-12 |
+| Ill-conditioned SLAE | 4096 | 1e+02 | 5.82964e-12 |
+| Ill-conditioned SLAE | 4096 | 1e+03 | 1.15672e-10 |
+
+
+Table 2 - Special Matrices (Part 2)
+
+| Condition Type | System Dimension | Matrix Elements Range | Average Relative Error |
+| Well-conditioned SLAE | 4 | 1e-01 | 1.69327e-16 |
+| Well-conditioned SLAE | 4 | 1e+01 | 4.01912e-16 |
+| Well-conditioned SLAE | 4 | 1e+02 | 3.93362e-16 |
+| Well-conditioned SLAE | 4 | 1e+03 | 3.02918e-16 |
+| Well-conditioned SLAE | 8 | 1e-01 | 1.50377e-15 |
+| Well-conditioned SLAE | 8 | 1e+01 | 4.84218e-16 |
+| Well-conditioned SLAE | 8 | 1e+02 | 7.40484e-16 |
+| Well-conditioned SLAE | 8 | 1e+03 | 3.06643e-16 |
+| Well-conditioned SLAE | 16 | 1e-01 | 2.06284e-16 |
+| Well-conditioned SLAE | 16 | 1e+01 | 5.24173e-16 |
+| Well-conditioned SLAE | 16 | 1e+02 | 3.81272e-16 |
+| Well-conditioned SLAE | 16 | 1e+03 | 5.09446e-16 |
+| Well-conditioned SLAE | 32 | 1e-01 | 3.95775e-16 |
+| Well-conditioned SLAE | 32 | 1e+01 | 1.77606e-15 |
+| Well-conditioned SLAE | 32 | 1e+02 | 1.15909e-15 |
+| Well-conditioned SLAE | 32 | 1e+03 | 3.44496e-16 |
+| Well-conditioned SLAE | 64 | 1e-01 | 6.18627e-16 |
+| Well-conditioned SLAE | 64 | 1e+01 | 2.00067e-15 |
+| Well-conditioned SLAE | 64 | 1e+02 | 7.42326e-16 |
+| Well-conditioned SLAE | 64 | 1e+03 | 4.78453e-16 |
+| Well-conditioned SLAE | 128 | 1e-01 | 3.96028e-16 |
+| Well-conditioned SLAE | 128 | 1e+01 | 7.95338e-16 |
+| Well-conditioned SLAE | 128 | 1e+02 | 3.74741e-16 |
+| Well-conditioned SLAE | 128 | 1e+03 | 1.14533e-15 |
+| Well-conditioned SLAE | 256 | 1e-01 | 2.46941e-15 |
+| Well-conditioned SLAE | 256 | 1e+01 | 1.30069e-15 |
+| Well-conditioned SLAE | 256 | 1e+02 | 1.57202e-15 |
+| Well-conditioned SLAE | 256 | 1e+03 | 3.23270e-16 |
+| Well-conditioned SLAE | 512 | 1e-01 | 1.26209e-15 |
+| Well-conditioned SLAE | 512 | 1e+01 | 4.81387e-16 |
+| Well-conditioned SLAE | 512 | 1e+02 | 1.01946e-13 |
+| Well-conditioned SLAE | 512 | 1e+03 | 5.87977e-16 |
+| Well-conditioned SLAE | 1024 | 1e-01 | 6.80714e-16 |
+| Well-conditioned SLAE | 1024 | 1e+01 | 2.96553e-15 |
+| Well-conditioned SLAE | 1024 | 1e+02 | 5.63823e-16 |
+| Well-conditioned SLAE | 1024 | 1e+03 | 5.14108e-16 |
+| Well-conditioned SLAE | 2048 | 1e-01 | 5.12205e-16 |
+| Well-conditioned SLAE | 2048 | 1e+01 | 5.14766e-16 |
+| Well-conditioned SLAE | 2048 | 1e+02 | 6.47819e-16 |
+| Well-conditioned SLAE | 2048 | 1e+03 | 5.49853e-16 |
+| Well-conditioned SLAE | 4096 | 1e-01 | 1.36312e-15 |
+| Well-conditioned SLAE | 4096 | 1e+01 | 1.63098e-15 |
+| Well-conditioned SLAE | 4096 | 1e+02 | 4.50511e-15 |
+| Well-conditioned SLAE | 4096 | 1e+03 | 5.66753e-16 |
+| Ill-conditioned SLAE | 4 | 1e-01 | 2.83948e-15 |
+| Ill-conditioned SLAE | 4 | 1e+01 | 2.16208e-15 |
+| Ill-conditioned SLAE | 4 | 1e+02 | 6.81790e-15 |
+| Ill-conditioned SLAE | 4 | 1e+03 | 6.10097e-15 |
+| Ill-conditioned SLAE | 8 | 1e-01 | 6.58720e-14 |
+| Ill-conditioned SLAE | 8 | 1e+01 | 2.74897e-14 |
+| Ill-conditioned SLAE | 8 | 1e+02 | 8.12028e-15 |
+| Ill-conditioned SLAE | 8 | 1e+03 | 1.34226e-14 |
+| Ill-conditioned SLAE | 16 | 1e-01 | 2.59801e-14 |
+| Ill-conditioned SLAE | 16 | 1e+01 | 2.29910e-14 |
+| Ill-conditioned SLAE | 16 | 1e+02 | 4.14179e-14 |
+| Ill-conditioned SLAE | 16 | 1e+03 | 1.33636e-13 |
+| Ill-conditioned SLAE | 32 | 1e-01 | 9.96107e-14 |
+| Ill-conditioned SLAE | 32 | 1e+01 | 7.41997e-14 |
+| Ill-conditioned SLAE | 32 | 1e+02 | 2.57742e-13 |
+| Ill-conditioned SLAE | 32 | 1e+03 | 3.72055e-14 |
+| Ill-conditioned SLAE | 64 | 1e-01 | 3.35303e-13 |
+| Ill-conditioned SLAE | 64 | 1e+01 | 7.04946e-14 |
+| Ill-conditioned SLAE | 64 | 1e+02 | 5.25248e-14 |
+| Ill-conditioned SLAE | 64 | 1e+03 | 1.16678e-13 |
+| Ill-conditioned SLAE | 128 | 1e-01 | 5.90736e-13 |
+| Ill-conditioned SLAE | 128 | 1e+01 | 9.08940e-14 |
+| Ill-conditioned SLAE | 128 | 1e+02 | 6.62297e-13 |
+| Ill-conditioned SLAE | 128 | 1e+03 | 6.46768e-12 |
+| Ill-conditioned SLAE | 256 | 1e-01 | 6.73138e-12 |
+| Ill-conditioned SLAE | 256 | 1e+01 | 2.14972e-12 |
+| Ill-conditioned SLAE | 256 | 1e+02 | 6.16816e-12 |
+| Ill-conditioned SLAE | 256 | 1e+03 | 2.58713e-11 |
+| Ill-conditioned SLAE | 512 | 1e-01 | 9.55111e-13 |
+| Ill-conditioned SLAE | 512 | 1e+01 | 1.70512e-12 |
+| Ill-conditioned SLAE | 512 | 1e+02 | 3.07029e-12 |
+| Ill-conditioned SLAE | 512 | 1e+03 | 1.48407e-11 |
+| Ill-conditioned SLAE | 1024 | 1e-01 | 1.70842e-10 |
+| Ill-conditioned SLAE | 1024 | 1e+01 | 1.92224e-10 |
+| Ill-conditioned SLAE | 1024 | 1e+02 | 8.78472e-11 |
+| Ill-conditioned SLAE | 1024 | 1e+03 | 1.06046e-09 |
+| Ill-conditioned SLAE | 2048 | 1e-01 | 1.17886e-10 |
+| Ill-conditioned SLAE | 2048 | 1e+01 | 2.03614e-10 |
+| Ill-conditioned SLAE | 2048 | 1e+02 | 5.44103e-10 |
+| Ill-conditioned SLAE | 2048 | 1e+03 | 2.82447e-10 |
+| Ill-conditioned SLAE | 4096 | 1e-01 | 5.26813e-10 |
+| Ill-conditioned SLAE | 4096 | 1e+01 | 2.69121e-11 |
+| Ill-conditioned SLAE | 4096 | 1e+02 | 1.32852e-09 |
+| Ill-conditioned SLAE | 4096 | 1e+03 | 1.24798e-09 |
+
+ DIMENSION DEPENDENCE ANALYSIS
+----------------------------------------------------------------
+ Dimension    Well-Conditioned Error    Ill-Conditioned Error
+----------------------------------------------------------------
+        4      1.05471e-15          5.60285e-15
+        8      3.40199e-16          1.63897e-12
+       16      1.30879e-15          1.17363e-13
+       32      6.62982e-16          4.30939e-13
+       64      8.57538e-16          6.06167e-13
+      128      5.05094e-15          4.15986e-12
+      256      3.94941e-15          8.60686e-12
+      512      9.09063e-16          5.61539e-12
+     1024      5.18241e-16          3.04528e-07
+     2048      5.23257e-16          1.40332e-10
+     4096      4.95598e-16          3.81093e-10
+
+ RANGE DEPENDENCE ANALYSIS
+----------------------------------------------------------------
+ Range      Well-Conditioned Error    Ill-Conditioned Error
+----------------------------------------------------------------
+ 1e-01      4.67447e-16          6.95445e-13
+ 1e+01      4.48806e-16          2.95635e-13
+ 1e+02      1.02282e-14          5.10767e-13
+ 1e+03      4.31012e-16          8.92876e-13
+
+ AVERAGE ERRORS
+----------------------------------------------------------------
+Average error of well-condioned tridiagonal matrix: 3.980166e-16
+Average error of ill-condioned tridiagonal matrix: 1.824119e-10
+Average error of well-condioned special matrix: 3.206998e-15
+Average error of ill-condioned special matrix: 1.331899e-10
